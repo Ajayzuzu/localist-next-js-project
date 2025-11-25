@@ -122,7 +122,7 @@ export function changeSequenceServices(array, fromIndex) {
   return array.slice();
 }
 
-// console.log("sjhvdjh")
+console.log("sjhvdjh");
 
 export const BASE_IMAGE_URL = "https://dev.localists.com/admin/";
 export const BASE_URL_IMAGE = `${BASE_IMAGE_URL}storage/app/public/images/category/`;
