@@ -21,8 +21,8 @@ const Navbar = () => {
                 e.preventDefault();
                 window.location.href = "/en/gb/";
               }}
-              width={24}
-              height={24}
+              width={150}
+              // height="100%"
               unoptimized
             />
 

@@ -59,9 +59,6 @@ const FooterContent = () => (
           {/* <Option value="🇺🇸 USA">🇺🇸 USA</Option> */}
         </Select>
       </div>
-      {/* <div className={styles.trustpilot}>
-        <img src={trustpilotLogo} alt="Trustpilot Rating" />
-      </div> */}
     </div>
 
     <div className={styles.footerContactSection}>
@@ -126,7 +123,13 @@ const Footer = () => {
         <div className={styles.footerLeft}>
           {/* <Link to={`/${lang}/${country}`} className={styles.link}> */}
           <div className={styles.logo}>
-            <Image src={logo} alt="Localist Logo" width={24} height={24} />
+            <Image
+              src={logo}
+              alt="Localist Logo"
+              width={24}
+              height={24}
+              unoptimized
+            />
           </div>
           {/* </Link> */}
           <p className={styles.footerDesc}>
